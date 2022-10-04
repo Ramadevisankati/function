@@ -1,7 +1,8 @@
 a=['p','q']
 i=1
 b=[]
-while i<=5:
+n=int(input("enter the number: "))
+while i<=n:
     j=0
     while j<len(a):
         d=a[j]+str(i)
